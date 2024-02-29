@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+
+<div align="center">
+
+<form oninput="out.value=(parseFloat(a.value)/(parseFloat(h.value)*1099.511627776))*14440">
+	<p>Суммартый объём всех своих плотов (в ГБ):   <input type="text" name="a" size="6" value="0"> ГБ</p>
+	
+	<p>Общий объём сети (Total Space Pledged):   <input type="text" name="h" size="6" value="0"> </p>
+	
+	<p>Количество монет в сутки: <output name="out" for="a h">0</output> TSSC в сутки</p>
+</form>
+
+
+Общий объём сети смотрим тут <a href="https://explorer.subspace.network/#/gemini-3h/consensus" target="_blank">Explorer subspace.network</a>. Раздел "Total Space Pledged"
+
+</div>
+
+</body>
+</html>
